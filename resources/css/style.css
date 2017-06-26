@@ -1,0 +1,142 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img{
+  height:50px;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom:1px solid seashell;
+  align-items: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav span{
+  display:inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+#title{
+  text-align: center;
+}
+
+a{
+  color:white;
+}
+
+div{
+  display:block;
+}
+
+#Mission{
+  background-image: url(../images/img-mission-background.jpg);
+  width: 1200px;
+  margin-left:69px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+#Locations{
+  background-image: url(../images/img-locations-background.jpg);
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  margin-left: 69px;
+  padding-top: 70px;
+}
+
+.container{
+justify-content: center;
+display: flex;
+}
+
+#Mission #mission-text{
+  background-color: black;
+  width: 1200px;
+}
+
+#Featured{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1000px;
+  min-width: 600px;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Featured-first-row{
+  dsplay: block;
+}
+#Featured-title{
+  min-width: 1000px;
+  height: auto;
+  display: block;
+}
+
+#Featured img{
+  width: 300px;
+  height:200px;
+}
+
+#Featured-box{
+  display:flex;
+}
+
+#contact{
+    height: 200px;
+}
+#copyright{
+  text-align: left;
+  padding-left: 20px;
+}
+
+#Locations-box{
+  width: 300px;
+  height: 300px;
+  margin-right:40px;
+  margin-top: 15px;
+  opacity: 1;
+  padding-top: 10px;
+  display:flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+#main{
+  padding-top: 69px;
+  margin:auto;
+}
+
+body{
+  margin: 0;
+}

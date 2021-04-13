@@ -1,3 +1,24 @@
+
+const rc = rough.canvas(document.getElementById('canvas'));
+
+//line and rectangle
+
+rc.circle(40, 70,80,  {
+  fill: 'white',
+  hachureAngle: -60, hachureGap: 10,
+  stroke: 'white'
+});
+rc.circle(120, 90, 80,  {
+  fill: 'white',
+  hachureAngle: 60, hachureGap: 5
+});
+
+// ellipse and circle
+
+
+
+
+
 $('.ui.modal')
 .modal('show')
 ;
